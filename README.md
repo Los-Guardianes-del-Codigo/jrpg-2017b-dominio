@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Los-Guardianes-del-Codigo/jrpg-2017b-dominio.svg?branch=master)](https://travis-ci.org/Los-Guardianes-del-Codigo/jrpg-2017b-dominio)
+﻿[![Build Status](https://travis-ci.org/Los-Guardianes-del-Codigo/jrpg-2017b-dominio.svg?branch=master)](https://travis-ci.org/Los-Guardianes-del-Codigo/jrpg-2017b-dominio)
 # World Of Middle Earth (WOME) - dominio
 
 ## Sobre las personas
@@ -14,7 +14,7 @@
 
 * Martinez Cruz, Jorge ([JorgePrograUnlam](https://github.com/jorgePrograUnlam))
 * Di Lorenzo, Maximiliano Rodrigo ([maximiliano-rdl](https://github.com/maximiliano-rdl))
-
+* Olivadese, Juan ([jolivadese](https://github.com/jolivadese))
 
 ## Sobre la tecnología
 
