@@ -17,6 +17,8 @@ public abstract class MadreDeTodo {
 	 * Defensa que recibira el personaje o npc.
 	 */
 	protected int defensa;
+
+	protected int ataque;
 	/**
 	 * Nivel que recibira el personaje o npc.
 	 */
@@ -125,6 +127,12 @@ public abstract class MadreDeTodo {
 	public final void aumentarDefensa(final int bonus) {
 		defensa += bonus;
 	}
+
+	// aumento ataque
+	public final void aumentarAtaque(final int bonus) {
+		ataque += bonus;
+	}
+
 	/**
 	 * Reduce la defensa del personaje.
 	 * @param reduc Valor que se reduce la defensa.

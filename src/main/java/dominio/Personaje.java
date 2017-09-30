@@ -123,10 +123,7 @@ public abstract class Personaje extends MadreDeTodo implements Peleable, Seriali
 	 * Posicion inicial del personaje en Y.
 	 */
 	private static final int POSYI = 0;
-	/**
-	 * Ataque del personaje.
-	 */
-	private int ataque;
+
 	/**
 	 * Magia del personaje.
 	 */
