@@ -15,6 +15,10 @@ public abstract class Personaje extends MadreDeTodo implements Peleable, Seriali
 	 * Salud del personaje.
 	 */
 	private int salud;
+
+	// puntos a asignar
+	private int puntosAasignar;
+
 	/**
 	 * Energia del personaje.
 	 */
@@ -224,6 +228,7 @@ public abstract class Personaje extends MadreDeTodo implements Peleable, Seriali
 	public Personaje(final String nombre, final Casta casta, final int id) {
 		super(FUERZAINICIAL, DEFENSAINICIAL, NIVELINICIAL, nombre);
 
+		puntosAasignar = 3;
 
 		this.casta = casta;
 		this.idPersonaje = id;
@@ -275,6 +280,8 @@ public abstract class Personaje extends MadreDeTodo implements Peleable, Seriali
 			final int idPersonaje) {
 		super(fuerza, 0, nivel, nombre);
 
+		puntosAasignar = 3;
+
 		this.salud = salud;
 		this.energia = energia;
 
@@ -296,7 +303,9 @@ public abstract class Personaje extends MadreDeTodo implements Peleable, Seriali
 	}
 
 
-
+	public int getPuntosAasignar() {
+		return puntosAasignar;
+	}
 
 	/**Retorna un entero con el ataque del personaje.
 	 * @return ataque del personaje.
@@ -723,6 +732,8 @@ public abstract class Personaje extends MadreDeTodo implements Peleable, Seriali
 			this.modificarAtributos();
 			this.saludTope += SALUDTOPESUBIRN;
 			this.energiaTope += ENERGIATOPESUBIRN;
+
+			this.puntosAasignar += 3;
 		}
 		this.experiencia -= acumuladorExperiencia;
 	}
