@@ -989,6 +989,16 @@ public abstract class Personaje extends MadreDeTodo implements Peleable, Seriali
 		}
 		this.items = aux;
 	}
+	
+	private int puntosAasignar;
+	
+	public int getPuntosAasignar() {
+		return puntosAasignar;
+	}
+
+	public void setPuntosAasignar(int p) {
+		puntosAasignar = p;
+	}
 
 }
 
